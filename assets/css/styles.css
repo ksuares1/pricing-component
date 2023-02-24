@@ -4,13 +4,29 @@
 
 body{
     background:hsl(230, 100%, 99%);
+    text-align: center;
 }
 
 
 .container{
     margin:0 auto;
-    padding:100px;
+    padding:120px;
+   
 }
 main{
-    text-align:center;
+     padding-bottom:80px;
+}
+
+.card-container{
+    padding:20px;
+    margin:0 auto;
+    background:white;
+}
+
+/* .pageviews , .cost{ 
+    text-align:center; 
+} */
+
+.billing{
+    text-align: center;
 }
