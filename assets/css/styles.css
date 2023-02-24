@@ -20,13 +20,15 @@ main{
 .card-container{
     padding:20px;
     margin:0 auto;
-    background:white;
+    background-color:white;
 }
 
-/* .pageviews , .cost{ 
-    text-align:center; 
-} */
 
 .billing{
     text-align: center;
+}
+
+ul{
+list-style: none;
+text-align: left;
 }
