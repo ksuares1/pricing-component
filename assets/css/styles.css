@@ -11,8 +11,7 @@
 body{
     background:hsl(230, 100%, 99%);
     text-align: center;
-    background-image: url("../images/bg-pattern.svg");
-}
+    }
 
 
 .container{
@@ -21,9 +20,11 @@ body{
    
 }
 main{
+    padding: 30px;
      padding-bottom:80px;
-     
+         /* background-image: url("../images/bg-pattern.svg"); */
      /* width:100%; */ 
+     font-size:15px;
 }
 
 .card-container{
@@ -31,8 +32,9 @@ main{
     margin:0 auto;
     background-color:white;
     border-radius: 8px;
-    width:50%;
-    height:46%;
+    width:700px;
+    height:450px;
+
 }
 
 
@@ -43,4 +45,9 @@ main{
 ul{
 list-style: none;
 text-align: left;
+}
+
+.slider{
+    width:50%;
+    padding-top:15px;
 }
