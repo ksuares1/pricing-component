@@ -2,9 +2,16 @@
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background:hsl(230, 100%, 99%);
     text-align: center;
+    background-image: url("../images/bg-pattern.svg");
 }
 
 
@@ -15,12 +22,17 @@ body{
 }
 main{
      padding-bottom:80px;
+     
+     /* width:100%; */ 
 }
 
 .card-container{
     padding:20px;
     margin:0 auto;
     background-color:white;
+    border-radius: 8px;
+    width:50%;
+    height:46%;
 }
 
 
